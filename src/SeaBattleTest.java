@@ -4,7 +4,7 @@ public class SeaBattleTest {
         GameHelper helper = new GameHelper(); // Спецкласс с методом для приёма ввода числа от User'а
         SeaBattle ship = new SeaBattle(); // Создаём объект - кораблик
         int random = (int) (Math.random() * 5); // Генер-м случайное число для первой ячейки корабля
-        int[] locations = {random, random + 1, random + 2}; // Создаём корабль
+        int[] locations = {random, random + 1, random + 2}; // Создаём корабль (из 3-х клеток)
         ship.setLocationCells(locations); // Передаём кораблю его местоположение
         boolean isAlive = true; // Переменная для хранения состояния игры
 
