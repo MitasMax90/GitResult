@@ -11,7 +11,7 @@ public class SeaBattle {
         String result = "Мимо"; // Создали переменную для хранения результата
         for (int cell : locationCells) { // Повторим с каждым элементом массива
             if (guess == cell) {
-                result = "Попал";
+                result = "Ой, Попал";
                 numOfHits++;
                 break;
             }
